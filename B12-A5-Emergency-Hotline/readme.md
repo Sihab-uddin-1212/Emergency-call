@@ -72,6 +72,7 @@ This Section will have layout as figma
 
 ### 3. Responsiveness (5 Marks)
 
+
 - Website should be fully **responsive for mobile devices** (implementation up to you)
 
 ---
