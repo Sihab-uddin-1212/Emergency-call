@@ -1,5 +1,5 @@
 ### getElementById :
-- it is get only a single unique**id**value that you want .
+- it is get only a single unique **id** value that you want .
 ### getElementsByClassName :
 - It returns a live HTMLCollection of all descendant elements that have the specified class name 
 ### querySelector :
@@ -8,21 +8,29 @@
 - it will wark when there are  multiple element matched with a single selector and it take all document or  element. 
 
 
-### create and insert a new element into the DOM
+ 
   
-- let div = document.createElement("div");
-    div.className =
-      "history-containar flex justify-between items-center m-3 p-3 bg-[#D9D9D9] rounded-lg";
-    div.innerHTML = `
-      <div class="name-container">
-        <h2 class="font-bold">${serviceName}</h2>
-        <p>${serviceNumber}</p>
-      </div>
-      <div class="time">
-        <p>${now}</p>
-      </div>
-    `;
-    historyContainer.appendChild(div);   
+### Create and Insert a New Element into the DOM
+
+The following code dynamically creates a new `<div>`, assigns classes, injects inner HTML content, and appends it to the `historyContainer` element.
+
+```js
+let div = document.createElement("div");
+div.className =
+  "history-containar flex justify-between items-center m-3 p-3 bg-[#D9D9D9] rounded-lg";
+
+div.innerHTML = `
+  <div class="name-container">
+    <h2 class="font-bold">${serviceName}</h2>
+    <p>${serviceNumber}</p>
+  </div>
+  <div class="time">
+    <p>${now}</p>
+  </div>
+`;
+
+historyContainer.appendChild(div);
+  ```
     
    
 
