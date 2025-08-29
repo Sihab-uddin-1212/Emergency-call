@@ -34,4 +34,8 @@
 
  # different between  preventDefault() and stopPropagation()
  1.  **preventDefault()** It is used to stop the default action associated with an event from occurring.
- 2. **stopPropagation()**  you prevent the event from continuing its journey up or down the DOM tree, thus stopping it from triggering any more event listeners on parent or child elements in the propagation path.
+ 2. **stopPropagation()**  you prevent the event from continuing its journey up or down the DOM tree . thus stopping it from triggering any more event listeners on parent or child elements in the propagation path.
+
+
+
+
