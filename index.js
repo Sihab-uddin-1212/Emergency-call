@@ -75,7 +75,7 @@ for (let callButton of callButtons) {
     
     let div = document.createElement("div");
     div.className =
-      "history-containar flex justify-between items-center m-3 p-3 bg-[#D9D9D9] rounded-lg";
+      "history-containar flex justify-between items-center m-3 p-3 bg-gray-100 rounded-lg";
     div.innerHTML = `
       <div class="name-container">
         <h2 class="font-bold">${serviceName}</h2>
